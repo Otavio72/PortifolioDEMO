@@ -22,6 +22,14 @@ app.get('/IMP',(req,res)=>{
     res.sendFile(path.join(__dirname, '/static/html/app/IMP.html'));
 });
 
+app.get('/PLAY',(req,res)=>{
+    res.sendFile(path.join(__dirname, '/static/html/app/PLAY.html'));
+});
+
+app.get('/PIADAS',(req,res)=>{
+    res.sendFile(path.join(__dirname, '/static/html/app/PIADAS.html'));
+});
+
 
 app.listen(port,()=>{
     console.log("Servidor rodando");
