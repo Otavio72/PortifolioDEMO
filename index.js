@@ -26,8 +26,8 @@ app.get('/PLAY',(req,res)=>{
     res.sendFile(path.join(__dirname, '/static/html/app/PLAY.html'));
 });
 
-app.get('/PIADAS',(req,res)=>{
-    res.sendFile(path.join(__dirname, '/static/html/app/PIADAS.html'));
+app.get('/FORZA',(req,res)=>{
+    res.sendFile(path.join(__dirname, '/static/html/app/Forza.html'));
 });
 
 
