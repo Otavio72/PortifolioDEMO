@@ -3702,6 +3702,30 @@ textarea.form-control.is-invalid {
     z-index: 3
 }
 
+.btn-cyano {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #00e5e5;
+  text-decoration: none;
+  border: 1px solid rgba(0, 229, 229, 0.6);
+  border-radius: 6px;
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.btn-cyano:hover {
+  background: rgba(0, 229, 229, 0.08);
+}
+
+.btn-cyano:active {
+  transform: scale(0.98);
+}
+
+
+
 .btn {
     display: inline-block;
     font-weight: 400;

@@ -30,6 +30,10 @@ app.get('/FORZA',(req,res)=>{
     res.sendFile(path.join(__dirname, '/static/html/app/Forza.html'));
 });
 
+app.get('/MENOR',(req,res)=>{
+    res.sendFile(path.join(__dirname, '/static/html/app/ProjetosMenores.html'));
+});
+
 
 app.listen(port,()=>{
     console.log("Servidor rodando");
